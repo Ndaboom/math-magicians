@@ -29,7 +29,7 @@ function Calculator(props) {
         <button onClick={clickHandler} type="button">7</button>
         <button onClick={clickHandler} type="button">8</button>
         <button onClick={clickHandler} type="button">9</button>
-        <button onClick={clickHandler} className="orange" type="button">*</button>
+        <button onClick={clickHandler} className="orange" type="button">x</button>
 
         <button onClick={clickHandler} type="button">4</button>
         <button onClick={clickHandler} type="button">5</button>
