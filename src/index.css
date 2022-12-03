@@ -11,3 +11,32 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.main-container {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.calculator {
+  display: flex;
+  flex-direction: column;
+}
+
+.orange {
+  background-color: orange;
+}
+
+.touch-pad {
+  display: grid;
+  padding-top: 10px;
+  grid-template-columns: repeat(4, 95px);
+  grid-template-rows: minmax(30px, auto) repeat(5, 80px);
+}
+
+.screen-container {
+  width: 360px;
+  padding: 10px;
+  background-color: gray;
+  color: white;
+}
