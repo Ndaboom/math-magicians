@@ -1,9 +1,7 @@
-/* eslint-disable react/prop-types */
-/* eslint-disable react/destructuring-assignment */
 import React, { useState } from 'react';
 import calculate from '../logic/calculate';
 
-function Calculator(props) {
+const Calculator = (props) => {
   const [state, setState] = useState({
     total: 0,
     next: 0,
@@ -48,6 +46,6 @@ function Calculator(props) {
 
     </div>
   );
-}
+};
 
 export default Calculator;
