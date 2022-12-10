@@ -1,0 +1,18 @@
+.CalculatorPage {
+  padding: 5rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(40%, 1fr));
+  gap: 30px;
+  color: white;
+}
+
+footer {
+  background-color: #24242c;
+  padding: 1rem;
+  text-align: center;
+  color: #cfcfd1;
+}
+
+.footer-link {
+  color: #ffffff !important;
+}

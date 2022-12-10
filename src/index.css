@@ -1,10 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&display=swap');
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  margin:0;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+  background-color: #2a272f;
 }
 
 code {
@@ -30,6 +33,6 @@ code {
 .touch-pad {
   display: grid;
   padding-top:10px;
-  grid-template-columns: repeat(4,95px);
-  grid-template-rows: minmax(30px,auto) repeat(5,80px);
+  grid-template-columns: repeat(4,25%);
+  grid-template-rows: minmax(30px,auto) repeat(5,118px);
 }
