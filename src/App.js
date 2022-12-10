@@ -17,7 +17,6 @@ const App = memo(() => (
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
-
 ));
 App.displayName = 'My Calculator';
 export default App;
