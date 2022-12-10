@@ -16,14 +16,14 @@ code {
 }
 
 .main-container {
-  width:80%;
+  width: 80%;
   margin-left: auto;
   margin-right: auto;
 }
 
 .calculator {
   display: flex;
-  flex-direction:column;
+  flex-direction: column;
 }
 
 .orange {
@@ -35,4 +35,11 @@ code {
   padding-top:10px;
   grid-template-columns: repeat(4,25%);
   grid-template-rows: minmax(30px,auto) repeat(5,118px);
+}
+
+.screen-container {
+  width: 360px;
+  padding: 10px;
+  background-color: gray;
+  color: white;
 }
