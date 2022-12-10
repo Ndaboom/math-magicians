@@ -1,0 +1,7 @@
+.CalculatorPage {
+  padding: 5rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(40%, 1fr));
+  gap: 30px;
+  color: orange;
+}

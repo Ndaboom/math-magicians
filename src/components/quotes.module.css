@@ -1,0 +1,10 @@
+.quotesPages {
+  padding: 5rem;
+}
+
+.quotesPages p {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  color: orange;
+}
